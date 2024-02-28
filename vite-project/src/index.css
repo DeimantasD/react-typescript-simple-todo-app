@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* ===== App ===== */
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./images/image1-3.jpg');
+  background-size:cover;
+  padding: 10px;
+  position: relative;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  margin: 100px auto 20px;
+  padding: 40px 30px ;
+  border-radius: 10px;
+}
+
+
+.todo-container h1 {
+text-align: center;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+ul li {
+  margin-top: 10px;
+  
+}
+
+input {
+  margin-top: 10px;
+  width: 250px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 3px solid gray;
+}
+
+
+.content button {
+  margin-top: 10px;
+  width: 250px;
+  height: 40px;
+}
